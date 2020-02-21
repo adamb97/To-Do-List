@@ -1,0 +1,82 @@
+/* https://blog.usejournal.com/develop-a-to-do-list-app-in-vanilla-javascript-95377ec370c5 */
+
+html {
+    height: 100%;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 4%, rgba(253,187,45,1) 100%); 
+    font-family: sans-serif;
+    background-size: auto;
+
+}
+
+.mainWrapper {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+form {
+    background-color: #fff;
+    padding: 15px;
+}
+
+input[type="text"]{
+    width: 230px;
+    height: 50px;
+    outline: 0;
+    border: none;
+    font-size: 1.5em;
+    background: #fff;
+    
+}
+button{
+    font-size: 1.5em;
+    background-color: #fff;
+    outline: 0;
+    border: none;
+    width: 60px;
+
+}
+.tasksWrapper{
+    background-color: #fff;
+    margin-top: 30px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    display: none;
+}
+
+ul{
+    list-style: none;
+}
+li{
+    border-bottom: 1px solid #53BDFF;
+    padding-top: 15px;
+    font-size: 1.3em;
+    color: #2f4f4f;
+}
+a {
+    float: right;
+    text-align: right;
+    color: #ff6161;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+.delete {
+    background-color: #ff6161;
+    padding: 0px 3px 0px 3px;
+    color: #fff;
+    cursor: pointer;
+}
+
+form, form + div {
+    border-radius: 3%;
+}
